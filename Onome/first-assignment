@@ -1,0 +1,61 @@
+#Explaining Linux directories.
+
+The root directory: Everything in your linux system is located in your root directory.
+Although no drive letters like c/: exist, everything in your linux is stored under Linux. 
+
+The bin directory: The /bin directory contains the essential user binaries (programs) that must be present when
+the system is mounted in single-user mode. Apps like browers are stored in the usr/bin while other packages can be stored in the bin without need of mounting.
+
+The boot directory: The /boot directory contains the files needed to boot the system.
+
+The cdrom directory: It is the historical mount point for CD-ROMs.
+It’s a temporary location for CD-ROMs inserted in the system.
+
+The dev directory:  the /dev directory contains a number of special files that
+represent devices. These are not actual files as we know them, but they appear as files.
+
+The etc directory: The /etc directory contains the boot-loaders configuration files, which can generally be edited by hand in a text
+editor.The /etc/ directory only contains system-wide congfiguration files — user-specific
+congfiguration files are located in each user’s home directory.
+
+The home directory: The /home directory contains the user’s data files and user-specific congfiguration files.
+
+The lib directory: The /lib directory contains libraries needed by the essential binaries in the /bin and /sbinfolder.
+Libraries needed by the binaries in the /usr/bin folder are located in /usr/lib.
+
+The lost+found directory: The lost+found directory contains corrupted files found as a result of any crash or backup issues,
+so you can attempt to recover as much data as possible
+
+The media directory: The /media directory is temporary media. It contains subdirectories where removable media devices inserted into
+the computer are mounted.
+
+The mnt directory: The /mnt directory is temporary mount system. It is where system administrators mounted temporary
+file systems while using them.
+
+The opt directory: The /opt directory is optional packages. It contains subdirectories for optional software packages. It’s commonly
+used by proprietary software that doesn’t obey the standard file system hierarchy.
+
+The proc directory: The /proc directory doesn’t contain standard files. It contains special files that represent system and process information.
+
+The root directory: The /root directory is the home directory of the root use.
+
+The run directory: The /run directory  gives applications a standard place to store transient files that
+require like sockets and process IDs.
+
+The sbin directory: The /sbin directory contains essential binaries that are generally intended to be run by the root user for system administration.
+
+The seLinux directory: It is unneccessary and the Ubuntu sees this dir as a bug.
+
+The srv directory: The /srv directory contains data for services provided by the system.
+
+The tmp directory: The /tmp directory contains temporary files by applications. These files are generally deleted
+whenever your system is restarted and may be deleted at any time by utilities.
+
+The usr directory: The /usr directory contains applications and files used by users, as opposed to applications
+and files used by the system. default apps during installation are also stored here.
+
+The var directory: The /var directory is the writable counterpart to the /usr directory, which must be read-only innormal operation.
+Log files and everything else that would normally be written to /usr duringnormal operation are written to the /var directory.
+
+End of assignment.
+Date: 5th May, 2022.
